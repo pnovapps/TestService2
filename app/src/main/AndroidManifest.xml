@@ -24,11 +24,5 @@
                 android:resource="@xml/accessibilityservice" />
         </service>
 
-        <receiver android:name=".PackageReplacedReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-            </intent-filter>
-        </receiver>
-
     </application>
 </manifest>

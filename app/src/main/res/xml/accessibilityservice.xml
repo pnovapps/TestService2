@@ -7,4 +7,5 @@
     android:accessibilityFeedbackType="feedbackAllMask"
     android:accessibilityFlags="flagIncludeNotImportantViews|flagReportViewIds|flagRequestEnhancedWebAccessibility|flagRetrieveInteractiveWindows"
     android:canRetrieveWindowContent="true"
-    android:canRequestTouchExplorationMode="true" />
+    android:canPerformGestures="true"
+    />
